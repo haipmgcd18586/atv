@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 10px;
+      
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+      background-image: url("https://cdn.shopify.com/s/files/1/0279/8335/products/ruby1_1024x1024.png?v=1538028196");
+      background-size:200px;
+    }
+    .topnav {
+  overflow: hidden;
+  background-color:red;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.leftcolumn {
+    float:left;
+    width: 25%;
+    
+}
+.rightcolumn {
+  float: right;
+  width: 25%;
+}
+.rightcolumn1 {
+  float:right;
+  width: 25%;
+}
+.rightcolumn2 {
+  float: right;
+  width: 25%;
+} 
+.rightcolumn3 {
+  float: right;
+  width: 25%;
+}
+.leftcolumn1{
+   float: left;
+   width: 30%;
+}
+
+.fakeimg {
+  background-color:white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 60px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 350px;
+}
+
+
+
+.glow {
+  font-size: 80px;
+  color: white;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px black, 0 0 50px pink ;
+  }
+  to {
+    text-shadow: 0 0 20px gold, 0 0 30px firebrick, 0 0 40px aqua, 0 0 50px chartreuse, 0 0 60px rebeccapurple;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+        <div class="header">
+                <form autocomplete="off" class="search_box" action="file:///C:/search" method="get" data-role="search">
+                <div class="search_wrapper">
+                    <input type="text" name="q" value="" class="index_input_search" placeholder="Nhập từ khóa tìm kiếm">
+                    <button class="btn_search_submit btn" type="submit">
+                      <span>Tìm ngay</span>
+                  </button>
+                </div>
+                </form>
+               
+                <div class="glow">Welcome to HOHs Shop</div>
+              </div>
+              <div class="topnav">
+                    <a href="HoHs.html">Sản Phẩm</a>
+                    
+                  </div>
+    
+            <div class="fakeimg">
+            <head>
+                    <link rel="stylesheet" type="text/css" href="./Resource/Style1.css">
+                </head>
+                <div class="slideshow-container">
+                
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRkdJ5F9Nih-MIyjXdWCgwZFewXyhN2_868zSFQVWul5o33WJBAdcP8aOvxwo89tG3PClSmFT2pqRvPwjxyLiDj1-YCb3tifOWfSlk_pjkZMv7tT_7yxBfS&usqp=CAE" style="width:100%">
+                      <div class="text">Caption Text</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQfCbw2UJfQLWTv-HbjywO696U18Ou-oUto9n0z1gzPjMC2GXQTt1mtp7ypPej9ali5UkYxsKrg84Ip7PDSzhoSnHrSzk7U861Pfm0B-0_r&usqp=CAE" style="width:100%">
+                      <div class="text">Caption Two</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTWNPJNI2av0v3Y-yALVxsaUZQFpF5Wkt7WytIPuKWrWeIvIYdXZc7bQCb8aU61qdk0_3osklTJHbLhB9niTKIV4BMTWPr2Ar7YhJn9GE_ILmx8clu5pKvZ&usqp=CAE" style="width:100%">
+                      <div class="text">Caption Three</div>
+                    </div>
+                  
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+                  <script>
+                      var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                }
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}
+                  slides[slideIndex-1].style.display = "block";
+                  setTimeout(showSlides, 2000);
+                }
+                  </script>
+            
+    </div> 
+    <div class="fakeimg">
+      <h1>Các sản phẩm được mua nhiều nhất trong tháng :</h1>
+      <div class="rightcolumn">
+        <center><img src="https://product.hstatic.net/1000160337/product/fc1be13cede9af9df96481ca4c90d14e_cf7da95b49ba4eed8002500ad6d93f05_compact.jpg" width="200px"></center></br>
+        <center>NENDOROID MILLHIORE F. BISCOTTI</center>
+      </div>
+      <div class="rightcolumn1">
+        <center><img src="https://product.hstatic.net/1000160337/product/17aab32d690fe471633bdeca920e0248_93083690188a43cdab841ea4a081bf89_compact.jpg" width="200px" height="290px"></center></br>
+        <center>NENDOROID NENE ANEGASAKI</center>
+      </div>
+      <div class="rightcolumn2">
+      <center><img src="https://product.hstatic.net/1000160337/product/figure_047754_01_7e458ebfc4b74d96b9f3f3fa15f6ecdd_compact.jpg" width="207px"></center></br>
+      <center>S.H.FIGUARTS IRON MAN MARK 85 (AVENGERS/END GAME)</center>
+    </div>
+    <div class="rightcolumn3">
+      <center><img src="https://product.hstatic.net/1000160337/product/figure-054062_03_5344c823d07c4a5983a15899b2074542_compact.jpg"width="200px" height="290px"></center></br>
+      <center>NENDOROID ONMYOJI OOTENGU</center>
+    </div>
+    </div></br>
+    <div class="footer">
+      Địa chỉ: 538 Lý Thường Kiệt P7 Q.Tân Bình TP Hồ Chí Minh</br>
+      Facebook : Facebook.com/HoHsShop</br>
+      Intasgram : HoHsShop</br>
+      Phone : 0946361074
+    </div>
+    
+</body>

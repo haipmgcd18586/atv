@@ -1,0 +1,131 @@
+<style>
+     * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 10px;
+      
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+      background-image: url("https://cdn.shopify.com/s/files/1/0279/8335/products/ruby1_1024x1024.png?v=1538028196");
+      background-size:200px;
+    }
+    .topnav {
+  overflow: hidden;
+  background-color:red;
+  text-align: left;
+  color: #ddd;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  /* Footer */
+  .footer {
+    padding: 60px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 350px;
+  }
+
+    .hihi {
+        height: 10%;
+        text-align: center;
+        background-color: white;
+    }
+    .glow {
+  font-size: 80px;
+  color: white;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px black, 0 0 50px pink ;
+  }
+  to {
+    text-shadow: 0 0 20px gold, 0 0 30px firebrick, 0 0 40px aqua, 0 0 50px chartreuse, 0 0 60px rebeccapurple;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.footer {
+  padding: 60px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 350px;
+}
+</style>
+
+<html>
+   
+    <div class="header">
+        <form autocomplete="off" class="search_box" action="file:///C:/search" method="get" data-role="search">
+        <div class="search_wrapper">
+            <input type="text" name="q" value="" class="index_input_search" placeholder="Nhập từ khóa tìm kiếm">
+            <button class="btn_search_submit btn" type="submit">
+              <span>Tìm ngay</span>
+          </button>
+        </div>
+        </form>
+       
+        <div class="glow">Welcome to HOHs Shop</div>
+      </div>
+      <div class="topnav">
+        <a href="">Home</a>
+      </div>    
+     
+    <body class="hihi">
+        <H2> Login page </H2>
+        <form action="login">
+            <P>Username: <input type="text" name="username"></P>
+            <P>Password: <input type="password" name="password"></P>
+            <P><input type="submit" value="Login"></P>
+        </form>
+        <div class="footer">
+            Địa chỉ: 538 Lý Thường Kiệt P7 Q.Tân Bình TP Hồ Chí Minh</br>
+            Facebook : Facebook.com/HoHsShop</br>
+            Intasgram : HoHsShop</br>
+            Phone : 0946361074
+          </div>
+		
+
+       
+    </body>
+</html>

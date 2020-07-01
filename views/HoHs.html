@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  background-image: url("https://cdn.shopify.com/s/files/1/0279/8335/products/ruby1_1024x1024.png?v=1538028196");
+  background-size:200px;
+}
+
+
+
+.header h2 {
+  text-align: right;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:red;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+  background-color:white;
+  width: 100%;
+  padding: 20px;
+}
+  .leftcolumn1 {
+    float:left;
+    width: 25%;
+  }
+  .leftcolumn2 {
+    float: left;
+    width: 25%;
+  }
+  .leftcolumn3 {
+    float: left;
+    width: 25%;
+  }
+  .rightolumn1 {
+    float: right;
+    width: 25%;
+}
+.leftcolumn4 {
+  float: left;
+  width: 25%;
+}
+.leftcolumn5 {
+  float: left;
+  width: 25%;
+}
+.leftcolumn6 {
+  float: left;
+  width: 25%;
+}
+.leftcolumn7 {
+  float: left;
+  width: 25%;
+}
+.leftcolumn8 {
+  float: left;
+  width: 50%;
+}
+.leftcolumn9 {
+  float: right;
+  width: 50%;
+  background-color: white;
+}
+.leftcolumn10 {
+  float: left;
+  width: 10%;
+}
+.leftcolumn11 {
+  float: left;
+  width: 1%;
+}
+/* Add a card effect for articles */
+.card {
+  background-color:white;
+  padding: 40px;
+  margin-top: 315px;
+}
+.card1 {
+ 
+  padding: 20px;
+  margin-top: 20px;
+}
+.card2 {
+
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.glow {
+  font-size: 80px;
+  color: white;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px black, 0 0 50px pink ;
+  }
+  to {
+    text-shadow: 0 0 20px gold, 0 0 30px firebrick, 0 0 40px aqua, 0 0 50px chartreuse, 0 0 60px rebeccapurple;
+  }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+  <div class="glow">Welcome to HOHs Shop</div>
+</div>
+
+<div class="topnav">
+  <a href="HOHs1.html">Back</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <h2>Các sản phẩm được yêu thích nhất</h2>
+    <div class="leftcolumn1">
+        <div class="card1">
+            <div class="fakeimg" style="height:200px;"><img src="./HoHs_files/GUEST_b4ed09d7-4c43-47c5-8364-1497c7929a85" width="160px"></div>
+            Fortnite Solo Mode Core Figure - Drift</br>
+        </br>
+        <center>1.600.000đ</center>
+        </div>
+    </div>
+    <div class="leftcolumn2">
+      <div class="card1">
+        <div class="fakeimg" style="height: 180px;"><img src="./HoHs_files/51PYn4HG0AL._SX466_.jpg" width="180px"></div>
+      <br>
+        Banpresto One Punch Man DXF-Premium Figure-Saitama</br>
+      </br>
+      <center>5.900.000đ</center>
+      </div>
+    </div>
+    <div class="rightolumn1">
+      <div class="fakeimg " style="height: 200px;"><img src="./HoHs_files/banpresto-pvc-scale-figures-black-clover-asta-dxf-figure-demon-ver-12045987184684_2000x2000.jpg" width="180px" height="200px"></div><br>
+    <br>
+      Black Clover - Asta DXF Figure (Demon Ver.)</br>
+    </br>
+    <center>2.300.000đ</center>
+    </div>
+    <div class="leftcolumn3">
+      <div class="fakeimg" style="height: 200px;"><img src="./HoHs_files/hr_tona11690_a.jpg" width="130px"></div><br>
+    <br>
+      Bleach Action Figure Ichigo Kurosaki 15 cm</br>
+    </br>
+    <center>4.800.000đ</center>    
+    </div>
+    <div class="card">
+      <h2>Các figure mới nhất</h2>
+      <div class="leftcolumn4">
+      <div class="fakeimg" style="height:200px;"><img src="./HoHs_files/71RRpDOx9FL._SX466_.jpg" width="160px"></div>
+      McFarlane Toys Fortnite Drift Premium Action Figure</br>
+      </br>
+      990.000đ
+      </div>
+      <div class="leftcolumn5">
+        <div class="fakeimg" style="height : 200px;"><img src="./HoHs_files/figm013-iron-man-mk50-nano-weapon-set-1.jpg" width="160px"></div>
+        Action Figure: Iron Man MK50 - Nano Weapon Set</br>
+      </br>
+      <center>3.499.000đ</center>
+      </div>
+      <div class="leftcolumn6">
+        <div class="fakeimg" style="height: 200px;"><img src="./HoHs_files/7518-jybsvq.jpg" width="160px"></div>
+        Pokemon - Naruto Pikachu Action Figure (15cm)</br>
+      </br>
+      <center>1.990.000đ</center>
+      </div>
+      <div class="leftcolumn7">
+        <div class="fakeimg" style="height: 200px;"><img src="./HoHs_files/1fd1b6e2163ee19c466cbbaeb4fd90ae" width="160px"></div>
+        Figure Yae Sakura Shinen Sakimitama Ver. - Honkai impact 3</br>
+      </br>
+        <center>3.000.000đ</center>
+      </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card2">
+      <h2>Search</h2>
+      <form autocomplete="off" class="search_box" action="file:///C:/search" method="get" data-role="search">
+        <div class="search_wrapper">
+            <input type="text" name="q" value="" class="index_input_search" placeholder="Nhập từ khóa tìm kiếm">
+            <button class="btn_search_submit btn" type="submit">
+              <span>Tìm ngay</span>
+          </button>
+        </div>
+        </form>
+    <div class="fakeimg" style="height: 100px;"></div>
+    </div>
+    <div class="card1">
+      <h3>Các sản phẩm đang khuyến mãi</h3>
+    <div class="leftcolumn8">
+      <div class="fakeimg"><img src="https://animatebkk-online.com/wp-content/uploads/2019/01/4573107361078-600x600.jpg"width="100px"></div>
+      <div class="fakeimg"><img src="https://product.hstatic.net/1000160337/product/figure-045599_01_1024x1024.jpg"width="100px"></div>
+    </div>
+    <div class="leftcolumn9">
+        BanG Dream! - Minato Yukina from Roselia 1/7 Scale Figure (Sale 30%)</br>
+    </br>
+        990.000đ
+  </br>
+</br>
+</br>
+BRING ARTS NieR:Automata YoRHa No.2 Type B Version 2.0 Action Figure (Sale 20%)</br>
+</br>
+2.600.000đ
+    </div>
+
+    </div>
+  </div>
+    <div class="card1">
+      <h3>Follow Shop</h3>
+      <div class="leftcolumn10">
+     <img src="https://image.flaticon.com/icons/svg/174/174848.svg"width="50px"></div>
+     <div class="leftcolumn10">
+       <img src="https://image.flaticon.com/icons/svg/2111/2111463.svg"width="50px">
+     </div>
+     <div class="leftcolumn11">
+       <img src="https://image.flaticon.com/icons/svg/126/126341.svg"width="50px">
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+      Địa chỉ: 538 Lý Thường Kiệt P7 Q.Tân Bình TP Hồ Chí Minh</br>
+      Facebook : Facebook.com/HoHsShop</br>
+      Intasgram : HoHsShop</br>
+      Phone : 0946361074
+</div>
+
+
+</body></html>
