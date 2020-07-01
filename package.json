@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "\"start\": \"node 07.01.00.mvc02.js\""
+    "start": "node 07.01.00.mvc02"
   },
   "repository": {
     "type": "git",
